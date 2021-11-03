@@ -55,3 +55,26 @@
     padding: 0.5rem 1.5rem;
   }
 }
+
+.divs {
+  float: left;
+  font-size: 24px;
+  color: white;
+  background-color: magenta;
+}
+
+.expense-item {
+  border: 5px solid green;
+}
+
+.div1 {
+  border: 2px solid whitesmoke;
+  display: flex;
+  align-items: flex-end;
+}
+
+#h2 {
+  text-align: center;
+  color: red;
+  font-size: 24px;
+}
