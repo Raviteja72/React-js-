@@ -10,7 +10,7 @@
 }
 
 .expense-item__description {
-  margin-left: 5px;
+  margin-left: 3px;
   display: flex;
   flex-direction: column;
   gap: 1rem;
@@ -56,25 +56,15 @@
   }
 }
 
-.divs {
-  float: left;
-  font-size: 24px;
-  color: white;
-  background-color: magenta;
-}
-
 .expense-item {
-  border: 5px solid green;
-}
-
-.div1 {
-  border: 2px solid whitesmoke;
-  display: flex;
-  align-items: flex-end;
+  border: 5px solid white;
+  border-radius: 3px;
 }
 
 #h2 {
   text-align: center;
-  color: red;
+  color: orange;
   font-size: 24px;
+  text-transform: uppercase;
+  text-decoration: underline;
 }
