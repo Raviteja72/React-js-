@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.css";
+import NewExpense from "./components/NewExpense/NewExpense";
 import Card from "./components/UI/Card";
 
 import Expense from "./components/Expenses/Expense";
@@ -43,10 +44,14 @@ const App = () => {
 }
 */
 
+  const addExpenseHandler = (expense) => {
+    console.log("In App.js");
+    console.log(expense);
+  };
+
   return (
     <div>
-      <h1 id="head">Hi bro what's up</h1>
-      <marquee id="marq">DO IT NOW</marquee>
+      <NewExpense addNewExpense={addExpenseHandler} />
       <Card>
         <Expense items={expenses} />
       </Card>
